@@ -50,7 +50,7 @@
 
                     <!--dropdown-->
                     <li class="dropdown-item">
-                        <div class="navbar-link">
+                        <div class="navbar-link  dropdown-toggle" data-dropdown-toggle>
                             Serviços  <ion-icon name="chevron-down-outline"></ion-icon>
                         </div>
 
@@ -66,6 +66,20 @@
                                     Joias
                                 </a>
                             </li>
+
+                            <li>
+                                <a href="#" class="dropdown-link">
+                                    Materiais
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#" class="dropdown-link">
+                                    Cuidados
+                                </a>
+                            </li>
+
+
                         </ul>
                     </li>
 
@@ -79,12 +93,23 @@
 
             <a href="#" class="btn">Login</a>
 
+            <button class="search-btn" id="searchToggle " aria-label="buscar">
+                <ion-icon name="search-outline"></ion-icon>
+            </button>
+
             <!--botão link do icone menu-->
             <button class="nav-toggle-btn" aria-label="menu mobile">
                 <ion-icon name="reorder-three-outline"></ion-icon>
             </button>
         </div>
     </header>
+
+    <!---BANNER-video-->
+    <section class="banner">
+        <video autoplay muted loop>
+            <source src="assets/videos/alianca-video-1920x1080.mp4">
+        </video>
+    </section>
 
  <!--script-->
  <script src="assets/js/script.js"></script>
