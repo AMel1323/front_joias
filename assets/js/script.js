@@ -59,5 +59,5 @@ imagens.forEach((img) => {
 // esconder o lightbox
 
 lightbox.addEventListener('click', () => {
-    lightbox.classList.remove('show'); mmmmmmmmmmmmmmmmm 
+    lightbox.classList.remove('show'); 
 })
