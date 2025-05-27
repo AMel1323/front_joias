@@ -83,3 +83,14 @@ document.addEventListener('keydown', (e) => {
     }
 
 })
+
+//LOGIN 
+
+const wrapper = document.querySelector('.wrapper');
+const registerLink = document.querySelector('.register-link');
+const loginLink = document.querySelector('.login-link');
+
+registerLink.onclick = (e) => {
+    e.preventDefault();
+    wrapper.classList.add('active');
+};
